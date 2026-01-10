@@ -46,7 +46,7 @@ function ingles() {
     desc9.innerText = 'Spotify';    //ALTERAR ENTRE AS ASPAS
 
     desc10.innerText = 'Minibar';    //ALTERAR ENTRE AS ASPAS
-    desc11.innerText = 'Free Shuttle';    //ALTERAR ENTRE AS ASPAS
+    desc11.innerText = 'Cleaning';    //ALTERAR ENTRE AS ASPAS
     desc12.innerText = 'WhatsApp';    //ALTERAR ENTRE AS ASPAS
 
     desc13.innerText = 'Restaurant';    //ALTERAR ENTRE AS ASPAS
@@ -83,7 +83,7 @@ function espanhol() {
     const desc13 = document.getElementById('desc13')    // NÃO MEXER
     const desc14 = document.getElementById('desc14')    // NÃO MEXER
     const desc15 = document.getElementById('desc15')    // NÃO MEXER
-    
+
     const resgatar = document.getElementById('resgatar')    // NÃO MEXER
     const ganhoupresente = document.getElementById('ganhoupresente');    // NÃO MEXER
 
@@ -105,7 +105,7 @@ function espanhol() {
     desc9.innerText = 'Spotify';    //ALTERAR ENTRE AS ASPAS
 
     desc10.innerText = 'Minibar';    //ALTERAR ENTRE AS ASPAS
-    desc11.innerText = 'Transporte Gratuito';    //ALTERAR ENTRE AS ASPAS
+    desc11.innerText = 'Limpieza';    //ALTERAR ENTRE AS ASPAS
     desc12.innerText = 'WhatsApp';    //ALTERAR ENTRE AS ASPAS
 
     desc13.innerText = 'Restaurante';    //ALTERAR ENTRE AS ASPAS
@@ -118,11 +118,16 @@ function espanhol() {
 }
 
 function portugues() {
+
+    // TELA INICIAL
+
     const bemvindo = document.getElementById('bemvindo')    // NÃO MEXER
     const cliqueabaixo = document.getElementById('cliqueabaixo')    // NÃO MEXER
 
     const popuppresente = document.getElementById('popuppresente');    // NÃO MEXER
-    popuppresente.style.display = "flex";    // NÃO MEXER
+    if (popuppresente) {
+        popuppresente.style.display = "flex";    // NÃO MEXER
+    }
 
     const desc1 = document.getElementById('desc1')    // NÃO MEXER
     const desc2 = document.getElementById('desc2')    // NÃO MEXER
@@ -148,32 +153,47 @@ function portugues() {
     const ganhoupresente = document.getElementById('ganhoupresente');    // NÃO MEXER
 
     // LISTA ABAIXO
+    if (bemvindo, cliqueabaixo, desc1, desc2, desc3, desc4, desc5, desc6, desc7, desc8, desc9, desc10, desc11, desc12, desc13, desc14, desc15, resgatar, ganhoupresente) {
+        bemvindo.innerText = 'seja bem vindo!';    //ALTERAR ENTRE AS ASPAS
+        cliqueabaixo.innerText = 'clique nos ícones abaixo';    //ALTERAR ENTRE AS ASPAS
+    
+        desc1.innerText = 'Promoções';    //ALTERAR ENTRE AS ASPAS
+        desc2.innerText = 'Paparazzi Fotografia';    //ALTERAR ENTRE AS ASPAS
+        desc3.innerText = 'Gastronomia';    //ALTERAR ENTRE AS ASPAS
+    
+        desc4.innerText = 'Área de lazer';    //ALTERAR ENTRE AS ASPAS
+        desc5.innerText = 'Informações';    //ALTERAR ENTRE AS ASPAS
+        desc6.innerText = 'Lojinha';    //ALTERAR ENTRE AS ASPAS
+    
+        desc7.innerText = 'Passeio';    //ALTERAR ENTRE AS ASPAS
+        desc8.innerText = 'Cocierge';    //ALTERAR ENTRE AS ASPAS
+        desc9.innerText = 'Spotify';    //ALTERAR ENTRE AS ASPAS
+    
+        desc10.innerText = 'Frigobar';    //ALTERAR ENTRE AS ASPAS
+        desc11.innerText = 'Limpeza';    //ALTERAR ENTRE AS ASPAS
+        desc12.innerText = 'WhatsApp';    //ALTERAR ENTRE AS ASPAS
+    
+        desc13.innerText = 'Restaurante';    //ALTERAR ENTRE AS ASPAS
+        desc14.innerText = 'Programação';    //ALTERAR ENTRE AS ASPAS
+        desc15.innerText = 'Como Chegar!';    //ALTERAR ENTRE AS ASPAS
+    
+        resgatar.innerText = 'resgatar';    //ALTERAR ENTRE AS ASPAS
+        ganhoupresente.innerText = 'você ganhou um presente!';    //ALTERAR ENTRE AS ASPAS
+    }
 
-    bemvindo.innerText = 'seja bem vindo!';    //ALTERAR ENTRE AS ASPAS
-    cliqueabaixo.innerText = 'clique nos ícones abaixo';    //ALTERAR ENTRE AS ASPAS
+    // TELA DE LIMPEZA
 
-    desc1.innerText = 'Promoções';    //ALTERAR ENTRE AS ASPAS
-    desc2.innerText = 'Paparazzi Fotografia';    //ALTERAR ENTRE AS ASPAS
-    desc3.innerText = 'Gastronomia';    //ALTERAR ENTRE AS ASPAS
+    const limpezaquarto = document.getElementById('limpezaquarto')    // NÃO MEXER
+    const parasolicitar = document.getElementById('parasolicitar')    // NÃO MEXER
+    const limparquarto = document.getElementById('limparquarto')    // NÃO MEXER
+    const naopertube = document.getElementById('naopertube')    // NÃO MEXER
+    const precisotoalha = document.getElementById('precisotoalha')    // NÃO MEXER
 
-    desc4.innerText = 'Área de lazer';    //ALTERAR ENTRE AS ASPAS
-    desc5.innerText = 'Informações';    //ALTERAR ENTRE AS ASPAS
-    desc6.innerText = 'Lojinha';    //ALTERAR ENTRE AS ASPAS
-
-    desc7.innerText = 'Passeio';    //ALTERAR ENTRE AS ASPAS
-    desc8.innerText = 'Cocierge';    //ALTERAR ENTRE AS ASPAS
-    desc9.innerText = 'Spotify';    //ALTERAR ENTRE AS ASPAS
-
-    desc10.innerText = 'Frigobar';    //ALTERAR ENTRE AS ASPAS
-    desc11.innerText = 'Freebus';    //ALTERAR ENTRE AS ASPAS
-    desc12.innerText = 'WhatsApp';    //ALTERAR ENTRE AS ASPAS
-
-    desc13.innerText = 'Restaurante';    //ALTERAR ENTRE AS ASPAS
-    desc14.innerText = 'Programação';    //ALTERAR ENTRE AS ASPAS
-    desc15.innerText = 'Como Chegar!';    //ALTERAR ENTRE AS ASPAS
-
-    resgatar.innerText = 'resgatar';    //ALTERAR ENTRE AS ASPAS
-    ganhoupresente.innerText = 'você ganhou um presente!';    //ALTERAR ENTRE AS ASPAS
+    limpezaquarto.innerText = 'limpeza de quarto';    //ALTERAR ENTRE AS ASPAS
+    parasolicitar.innerText = 'para solicitar clique nos ícones abaixo:';    //ALTERAR ENTRE AS ASPAS
+    limparquarto.innerText = 'Limpar Quarto';    //ALTERAR ENTRE AS ASPAS
+    naopertube.innerText = 'Não Pertube';    //ALTERAR ENTRE AS ASPAS
+    precisotoalha.innerText = 'Preciso de Toalhas';    //ALTERAR ENTRE AS ASPAS
 }
 
 // NÃO MEXER ABAIXO
