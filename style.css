@@ -217,6 +217,23 @@ body {
     height: 65px;
 }
 
+.adminbotao {
+    position: absolute;
+    bottom: -5;
+    right: 50px;
+    height: 100px;
+}
+
+.adminbotao a {
+    color: var(--sec);
+    text-decoration: none;
+}
+
+.adminbotao a p{
+    font-size: 25pt;
+    font-weight: bold;
+}
+
 /* LIMPEZA */
 
 .topbar {
