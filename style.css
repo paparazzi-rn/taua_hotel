@@ -251,7 +251,9 @@ body {
 }
 
 .limpezatela h2 {
-    text-transform: uppercase;;
+    text-transform: uppercase;
+    font-size: 30pt;
+    font-weight: lighter;
 }
 
 .iconegrande {
@@ -278,6 +280,6 @@ body {
     width: 100%;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    padding: 0;
+    padding: 10px;
     margin: 0;
 }
