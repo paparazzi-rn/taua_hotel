@@ -25,10 +25,10 @@ function ingles() {
     const desc14 = document.getElementById('desc14')    // NÃO MEXER
     const desc15 = document.getElementById('desc15')    // NÃO MEXER
 
-    const popuppresente = document.getElementById('popuppresente');    // NÃO MEXER
-    if (popuppresente) {
-        popuppresente.style.display = "flex";    // NÃO MEXER
-    }
+    // const popuppresente = document.getElementById('popuppresente');
+    // if (popuppresente) {
+    //     popuppresente.style.display = "flex";
+    // }
 
     const resgatar = document.getElementById('resgatar')    // NÃO MEXER
     const ganhoupresente = document.getElementById('ganhoupresente');    // NÃO MEXER
@@ -87,10 +87,10 @@ function espanhol() {
     const bemvindo = document.getElementById('bemvindo')    // NÃO MEXER
     const cliqueabaixo = document.getElementById('cliqueabaixo')    // NÃO MEXER
 
-    const popuppresente = document.getElementById('popuppresente');    // NÃO MEXER
-    if (popuppresente) {
-        popuppresente.style.display = "flex";    // NÃO MEXER
-    }
+    // const popuppresente = document.getElementById('popuppresente');
+    // if (popuppresente) {
+    //     popuppresente.style.display = "flex";
+    // }
 
     const desc1 = document.getElementById('desc1')    // NÃO MEXER
     const desc2 = document.getElementById('desc2')    // NÃO MEXER
@@ -171,10 +171,10 @@ function portugues() {
     const bemvindo = document.getElementById('bemvindo')    // NÃO MEXER
     const cliqueabaixo = document.getElementById('cliqueabaixo')    // NÃO MEXER
 
-    const popuppresente = document.getElementById('popuppresente');    // NÃO MEXER
-    if (popuppresente) {
-        popuppresente.style.display = "flex";    // NÃO MEXER
-    }
+    // const popuppresente = document.getElementById('popuppresente');
+    // if (popuppresente) {
+    //     popuppresente.style.display = "flex";
+    // }
 
     const desc1 = document.getElementById('desc1')    // NÃO MEXER
     const desc2 = document.getElementById('desc2')    // NÃO MEXER
@@ -248,10 +248,10 @@ function portugues() {
 
 // NÃO MEXER ABAIXO
 
-function fechar() {
-    const popuppresente = document.getElementById('popuppresente');
-    popuppresente.style.display = "none";
-}
+// function fechar() {
+//     const popuppresente = document.getElementById('popuppresente');
+//     popuppresente.style.display = "none";
+// }
 
 
 document.addEventListener("DOMContentLoaded", function () {

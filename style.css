@@ -75,6 +75,16 @@ body {
     border-radius: 50px;
 }
 
+video {
+    display: block;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+}
+
 .icons {
     display: flex;
     flex-wrap: wrap;
@@ -114,7 +124,7 @@ body {
 }
 
 .presente {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -229,7 +239,7 @@ body {
     text-decoration: none;
 }
 
-.adminbotao a p{
+.adminbotao a p {
     font-size: 25pt;
     font-weight: bold;
 }
